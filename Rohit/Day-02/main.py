@@ -17,6 +17,14 @@ import sys
 #     print(f"'{display}'")
 #     print(f"Length {len(s)} characters, Size: {sys.getsizeof(s)} bytes")
 
-for count in [0, 1, 2, 3, 5, 10, 20, 50, 100]:
-    my_list = list(range(count))
-    print(f"list with {count:<3} items: {sys.getsizeof(my_list):<5} bytes")
+# for count in [0, 1, 2, 3, 5, 10, 20, 50, 100]:
+#     my_list = list(range(count))
+#     print(f"list with {count:<3} items: {sys.getsizeof(my_list):<5} bytes")
+
+my_dict = {"a":1,
+           "b":"rohit",
+           "c":"rohit",
+           "d":"rohit",
+           "e":"rohit",
+           }
+print(sys.getsizeof(my_dict))
