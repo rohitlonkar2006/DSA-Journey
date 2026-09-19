@@ -11,8 +11,12 @@ import sys
 
 # print(f"None Takes {sys.getsizeof(None)} bytes")
 
-strings = ["","a","Hello","Hi,I am rohit!"]
-for s in strings:
-    display = s if len(s)<=40 else s[:37] + "..."
-    print(f"'{display}'")
-    print(f"Length {len(s)} characters, Size: {sys.getsizeof(s)} bytes")
+# strings = ["","a","Hello","Hi,I am rohit!"]
+# for s in strings:
+#     display = s if len(s)<=40 else s[:37] + "..."
+#     print(f"'{display}'")
+#     print(f"Length {len(s)} characters, Size: {sys.getsizeof(s)} bytes")
+
+for count in [0, 1, 2, 3, 5, 10, 20, 50, 100]:
+    my_list = list(range(count))
+    print(f"list with {count:<3} items: {sys.getsizeof(my_list):<5} bytes")
