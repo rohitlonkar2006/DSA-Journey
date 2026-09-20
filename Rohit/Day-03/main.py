@@ -10,6 +10,6 @@ def main():
     room_length = 5
     room_width = 3
     room_area = calculate_area(room_length, room_width)
-    return room_area
+    print(room_area)
     
 main()
