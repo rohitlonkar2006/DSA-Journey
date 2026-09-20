@@ -1,15 +1,23 @@
-def multiply(a,b):
-    return a*b
+# def multiply(a,b):
+#     return a*b
 
-def calculate_area(length,width):
-    area = multiply(length,width)
-    return area
+# def calculate_area(length,width):
+#     area = multiply(length,width)
+#     return area
 
 
-def main():
-    room_length = 5
-    room_width = 3
-    room_area = calculate_area(room_length, room_width)
-    print(room_area)
+# def main():
+#     room_length = 5
+#     room_width = 3
+#     room_area = calculate_area(room_length, room_width)
+#     print(room_area)
     
-main()
+# main()
+
+def process_order(order_id):
+    print(f">> Processing Order #{order_id}")
+    print()
+
+def validate_order(order_id):
+    print(f">> Validating Order #{order_id}")
+    process_order()
