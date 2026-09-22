@@ -18,15 +18,17 @@ import traceback
 
 def process_order(order_id):
     print(f">> Processing Order #{order_id}")
-    traceback.print(order_id)
+    traceback.print_stack()
 
 def validate_order(order_id):
     print(f">> Validating Order #{order_id}")
-    recieve(order_id)
+    process_order(order_id)
+    print(f">> Validation Completed #{order_id}")
 
-def recieve(order_id):
+def recieve_order(order_id):
     print(f"Recieving order #{order_id}")
     validate_order(order_id)
+    print(f">> Order Recieved #{order_id}")
 
-recieve(67)
+recieve_order(67)
 print("Finished")
