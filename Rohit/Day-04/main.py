@@ -1,2 +1,2 @@
-def main():
-    print("Hellow from inside")
+def second_largest(nums):
+    first = 0
