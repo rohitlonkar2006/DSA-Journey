@@ -11,5 +11,5 @@ def second_largest(nums):
             
     return second
 
-obj = nums([1,2,3,4,5,3])
+obj = second_largest([4,4,3])
 print("Second Largest:",obj)
