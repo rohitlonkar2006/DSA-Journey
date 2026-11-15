@@ -1,8 +1,12 @@
-def reverse_string(n: str):
-    if n == "":
+def reverse_string(text: str) -> str:
+    """Return the reverse of a string using recursion."""
+    if text == "":
         return ""
 
-    return reverse_string(n[1:]) + n[0]
+    return reverse_string(text[1:]) + text[0]
 
 
-print(reverse_string("code"))
+if __name__ == "__main__":
+    sample = "code"
+    print(f"Original: {sample}")
+    print(f"Reversed: {reverse_string(sample)}")
