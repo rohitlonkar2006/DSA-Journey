@@ -12,7 +12,7 @@ def subsets(nums, i, path, result):
 result = []
 path = []
 i = 0
-nums = [1, 2, 3,4----------------------------------]
+nums = [1, 2, 3,4]
 subsets(nums, i, path, result)
 
 print(result)
