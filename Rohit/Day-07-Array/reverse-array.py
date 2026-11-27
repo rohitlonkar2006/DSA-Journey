@@ -1,3 +1,3 @@
-strings = "rohit"
+nums = [1,2,3,4]
 
-print(strings[-1::])
+print(nums[::-1])
